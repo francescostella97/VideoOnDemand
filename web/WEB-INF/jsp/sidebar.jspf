@@ -35,18 +35,18 @@
 
 
 <html>
-<div class="container">
-    <aside>
-        <ul><%--
-        <%=structure%>
-        --%>
-        <c:out value="${structure}" escapeXml="false"></c:out>
-           <%-- <li><button><a href=' <c:url value="/LoadFilmForm.jsp" var="url"/> '>Carica</a></button></li>--%>
+<%--<div class="container">--%>
+    <%--<aside>--%>
+        <%--<ul>&lt;%&ndash;--%>
+        <%--<%=structure%>--%>
+        <%--&ndash;%&gt;--%>
+        <%--<c:out value="${structure}" escapeXml="false"></c:out>--%>
+           <%--&lt;%&ndash; <li><button><a href=' <c:url value="/LoadFilmForm.jsp" var="url"/> '>Carica</a></button></li>&ndash;%&gt;--%>
 
-        </ul>
-    </aside>
+        <%--</ul>--%>
+    <%--</aside>--%>
 
-</div>
+<%--</div>--%>
 <div class="sidebar" data-background-color="white" data-active-color="danger">
 
     <!--
@@ -63,19 +63,19 @@
 
         <ul class="nav">
             <li>
-                <a href=${url_home}>
+                <a href="/home.jsp">
                     <i class="ti-panel"></i>
                     <p>Dashboard</p>
                 </a>
             </li>
             <li>
-                <a href=${url}>
+                <a href="/loadListFormServlet?status=empty">
                     <i class="ti-plus"></i>
                     <p>Add Title</p>
                 </a>
             </li>
             <li class="active">
-                <a href="${url_list}">
+                <a href="/listProductServlet?orderingType=sort_normal">
                     <i class="ti-view-list-alt"></i>
                     <p>Product List</p>
                 </a>
@@ -85,7 +85,6 @@
     </div>
 </div>
 </html>
-
 
 
 

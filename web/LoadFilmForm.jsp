@@ -1,6 +1,39 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<html> <%@include file="/WEB-INF/jsp/header.jspf"%>
+<head>
+    <title>Title</title>
+
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>List of Products</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+
 
 <body>
 <%!
@@ -73,64 +106,77 @@
     String genre = Validate.checkParam(request,"genre");
     String year = Validate.checkParam(request,"year");*/
 %>--%>
+<div class="wrapper">
+    <%@include file="/WEB-INF/jsp/sidebar.jspf"%>
 
-<div class="main-panel">
 
-    <div class="content">
-        <div class="container-fluid">
-            <div class="row">
+    <div class="main-panel">
 
-                <form action='/loadListFormServlet?status=full' method='POST' enctype="multipart/form-data">
+        <%@include file="/WEB-INF/jsp/navbar.jspf"%>
 
-                    <input type="hidden" name="filmId" value="${id}"/>
-                    <img src="${cover}"></img>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
 
-                    Title <input type='text' name='title' value='${title}'/> <br><br>
+                    <form action='/loadListFormServlet?status=full' method='POST' enctype="multipart/form-data">
 
-                    Cover <input type="file" name="cover"/> <br><br>
+                        <input type="hidden" name="filmId" value="${id}"/>
+                        <img src="${cover}"></img>
 
-                    Genere <select name='genre'>
+                        Title <input type='text' name='title' value='${title}'/> <br><br>
 
-                    <c:forEach items="${genres}" var="current" >
+                        Cover <input type="file" name="cover"/> <br><br>
 
-                        <c:if test="${current.id.equals(genre.id)}">
-                            <option value="${current.id}" selected> ${current.name} </option>
+                        Genere <select name='genre'>
+
+                        <c:forEach items="${genres}" var="current" >
+
+                            <c:if test="${current.id.equals(genre.id)}">
+                                <option value="${current.id}" selected> ${current.name} </option>
+                            </c:if>
+                            <c:if test="${!current.id.equals(genre.id)}">
+                                <option value="${current.id}"> ${current.name} </option>
+                            </c:if>
+
+                        </c:forEach>
+                    </select>
+
+                        </select> <br><br>
+                        Year <input type='text' name='year' value='${year}'/> <br><br>
+                        <input class="btn btn-info btn-fill btn-wd" type='submit' value='submit'/> <br><br>
+                        <%--<button type="submit" class="btn btn-info btn-fill btn-wd">Update Profile</button>--%>
+
+
+                        <c:if test="${!empty errors}">
+                            <div class="alert alert-danger">
+                                <button type="button" aria-hidden="true" class="close">×</button>
+                                <span><b> Danger - </b> This is a regular notification made with ".alert-danger"</span>
+                                <c:forEach items="${errors}" var="e">
+                                    <li>${e}</li>
+                                </c:forEach>
+                            </div>
+
                         </c:if>
-                        <c:if test="${!current.id.equals(genre.id)}">
-                            <option value="${current.id}"> ${current.name} </option>
-                        </c:if>
-
-                    </c:forEach>
-                </select>
-
-                    </select> <br><br>
-                    Year <input type='text' name='year' value='${year}'/> <br><br>
-                    <input class="btn btn-info btn-fill btn-wd" type='submit' value='submit'/> <br><br>
-                    <%--<button type="submit" class="btn btn-info btn-fill btn-wd">Update Profile</button>--%>
 
 
-                    <c:if test="${!empty errors}">
-                        <div class="alert alert-danger">
-                            <button type="button" aria-hidden="true" class="close">×</button>
-                            <span><b> Danger - </b> This is a regular notification made with ".alert-danger"</span>
-                            <c:forEach items="${errors}" var="e">
-                                <li>${e}</li>
-                            </c:forEach>
-                        </div>
-
-                    </c:if>
+                    </form>
 
 
-                </form>
-
-
+                </div>
             </div>
         </div>
-    </div>
 
+        <%@include file="/WEB-INF/jsp/footer.jspf"%>
+
+    </div>
 </div>
 
 
 
 </body>
 </html>
+
+
+
+
+

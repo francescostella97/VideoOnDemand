@@ -8,11 +8,11 @@
         <welcome-file>home.jsp</welcome-file>
     </welcome-file-list>
 
-    <jsp-config>
-        <jsp-property-group>
-            <url-pattern>*.jsp</url-pattern>
-            <include-prelude>/WEB-INF/jsp/header.jspf</include-prelude>
-            <include-coda>/WEB-INF/jsp/footer.jspf</include-coda>
-        </jsp-property-group>
-    </jsp-config>
+    <!--<jsp-config>-->
+        <!--<jsp-property-group>-->
+            <!--<url-pattern>*.jsp</url-pattern>-->
+            <!--<include-prelude>/WEB-INF/jsp/header.jspf</include-prelude>-->
+            <!--<include-coda>/WEB-INF/jsp/footer.jspf</include-coda>-->
+        <!--</jsp-property-group>-->
+    <!--</jsp-config>-->
 </web-app>
