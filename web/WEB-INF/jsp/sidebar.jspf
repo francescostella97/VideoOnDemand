@@ -1,0 +1,95 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<c:url value="/loadListFormServlet" var="url">
+    <c:param name="status" value="empty"></c:param>
+</c:url>
+<c:url value="/home.jsp" var="url_home"></c:url>
+<c:url value="/listProductServlet" var="url_list">
+    <c:param name="orderingType" value="sort_normal"></c:param>
+</c:url>
+<c:set var="ADMIN_TEMPLATE" value=" <li><button><a href=${url_home}>Home</a></button></li>
+                                    <li><button><a href=${url}>Carica</a></button></li>
+                                    <li><button><a href=${url_list}>Lista</a></button></li>" scope="page"></c:set>
+<%--<c:set var="TEMPLATE" value="${'<li><button><a href=' + url2 + '>Home</a></button></li><li><button><a href=' + url3 + '>List</a></button></li>'}" scope="page"></c:set>
+<c:set var="structure" value="${TEMPLATE}"></c:set>--%>
+<%--<%
+    // url = response.encodeURL("LoadFilmForm.jsp");
+
+    //final String ADMIN_TEMPLATE = "<li><button><a href=" + url + ">Carica</a></button></li>";
+
+    //String url2 = response.encodeURL("home.jsp");
+    //String url3 = response.encodeURL("/listProductServlet?orderingType=sort_normal");
+
+    //final String TEMPLATE =   "<li><button><a href=" + url2 + ">Home</a></button></li>\n" +
+    //                    "<li><button><a href=" + url3 + ">List</a></button></li>";
+
+    //String structure = TEMPLATE;
+    /*if(dtoUser != null && dtoUser.role == 1){
+        structure = structure + ADMIN_TEMPLATE;
+    }*/
+%>--%>
+<c:set var="structure" value="${structure}${ADMIN_TEMPLATE}"></c:set>
+<%--<c:if test="${dtoUser != null && dtoUser.role == 1}">
+
+</c:if>--%>
+
+
+
+<html>
+<div class="container">
+    <aside>
+        <ul><%--
+        <%=structure%>
+        --%>
+        <c:out value="${structure}" escapeXml="false"></c:out>
+           <%-- <li><button><a href=' <c:url value="/LoadFilmForm.jsp" var="url"/> '>Carica</a></button></li>--%>
+
+        </ul>
+    </aside>
+
+</div>
+<div class="sidebar" data-background-color="white" data-active-color="danger">
+
+    <!--
+        Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+        Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+    -->
+
+    <div class="sidebar-wrapper">
+        <div class="logo">
+            <a href="#" class="simple-text">
+                Video On Demand
+            </a>
+        </div>
+
+        <ul class="nav">
+            <li>
+                <a href=${url_home}>
+                    <i class="ti-panel"></i>
+                    <p>Dashboard</p>
+                </a>
+            </li>
+            <li>
+                <a href=${url}>
+                    <i class="ti-plus"></i>
+                    <p>Add Title</p>
+                </a>
+            </li>
+            <li class="active">
+                <a href="${url_list}">
+                    <i class="ti-view-list-alt"></i>
+                    <p>Product List</p>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+</html>
+
+
+
+
+
+
+
+

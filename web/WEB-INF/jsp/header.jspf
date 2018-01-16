@@ -1,0 +1,105 @@
+<%@ page import="model.FilmEntity" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>List of Products</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+
+<c:set var="dtoUser" value="${sessionScope.get('user')}" scope="session"></c:set>
+<c:set var="user" value="" scope="page"></c:set>
+
+<c:if test='${!empty dtoUser}'>
+    <c:set var="user" value="Bentornato ${dtoUser.username}" scope="page"></c:set>
+</c:if>
+<c:if test="${empty dtoUser}">
+    <c:set var="user" value="Login" scope="page"></c:set>
+
+</c:if>
+<%--<%
+    //String uri = request.getServletPath();
+    //String pageName = uri.substring(uri.lastIndexOf("/")+1);
+
+    DTOUser dtoUser = (DTOUser) session.getAttribute("user");
+    String user = "";
+    //if(!pageName.equals("Login.jsp") && !pageName.equals("home.jsp")){
+        if(dtoUser != null){
+            user = "Benvenuto " + dtoUser.username;
+        }
+      //  else{
+        //    response.sendRedirect("Login.jsp");
+        //}
+    //}
+
+%>--%>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar bar1"></span>
+                <span class="icon-bar bar2"></span>
+                <span class="icon-bar bar3"></span>
+            </button>
+            <a class="navbar-brand" href="#">Video On Demand</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="Login.jsp" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="ti-panel"></i>
+                        <p><c:out value="${user}"></c:out></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/logoutServlet" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="ti-panel"></i>
+                        <p>Logout</p>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<%--<div class="container">--%>
+    <%--<header><h1>Video On Demand</h1>--%>
+        <%--<a href="Login.jsp">Login</a>--%>
+        <%--<c:out value="${user}"></c:out>--%>
+        <%--<a href="/logoutServlet">Logout</a>--%>
+    <%--</header>--%>
+<%--</div>--%>
+
+<%@include file="/WEB-INF/jsp/sidebar.jspf"%>
+
+</html>
