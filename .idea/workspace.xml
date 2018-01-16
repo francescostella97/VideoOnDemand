@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="VOD:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c312d06e-973b-4988-b4c8-5157cee05060" name="Default" comment="User Interface\">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/VOD_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ad3fdf79-11da-4861-8c0e-f2e02e0915a1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_1_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jstl_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_eclipse_persistence_eclipselink_2_5_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/VOD.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/ListProduct.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/LoadFilmForm.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/Login.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/META-INF/persistence.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/controller/DeleteFilmServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/controller/ListProductServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/controller/LoadFilmFormServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/controller/LoginServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/controller/LogoutServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/controller/SessionFilter.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/controller/Tests.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/model/BaseEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/model/BaseEntityAudit.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/model/BillEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/model/BillRowEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/model/FilmEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/model/GenreEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/model/PaymentEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/model/UserEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/model/WhatsApp Image 2018-01-12 at 3.52.07 PM.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/services/AbstractFacade.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/services/AbstractFacadeTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/services/FacadeFilmImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/services/FacadeGenreImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/services/FacadeUserImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/utils/Comparators$FilmDTOByNameAsc.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/utils/Comparators$FilmDTOByNameDesc.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/utils/Comparators$FilmDTOByYearAsc.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/utils/Comparators$FilmDTOByYearDesc.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/utils/Comparators.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/classes/utils/Validate.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/jsp/footer.jspf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/jsp/header.jspf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/jsp/navbar.jspf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/jsp/sidebar.jspf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/lib/commonj.sdo-2.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/lib/eclipselink-2.5.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/lib/javax.persistence-2.1.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/lib/javax.persistence.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/lib/jstl-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.45-bin.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/css/animate.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/css/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/css/paper-dashboard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/css/themify-icons.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/fonts/themify.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/fonts/themify.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/fonts/themify.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/fonts/themify.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/img/apple-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/img/background.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/img/faces/face-0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/img/faces/face-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/img/faces/face-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/img/faces/face-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/img/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/img/new_logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/img/tim_80x80.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/js/bootstrap-checkbox-radio.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/js/bootstrap-notify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/js/chartist.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/js/demo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/js/jquery-1.10.2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/js/paper-dashboard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper-dashboard.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_alerts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_cards.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_chartist.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_checkbox-radio.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_dropdown.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_footers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_inputs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_misc.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_navbars.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_responsive.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_sidebar-and-main-panel.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_tables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_typography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_cards.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_chartist.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_inputs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_labels.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_navbars.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_sidebar.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_tabs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_transparency.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/assets/sass/paper/mixins/_vendor-prefixes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/home.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/img/delete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/img/delete2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/img/edit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/img/edit2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/img/home.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/img/sort_alpha.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/VOD_war_exploded/img/sort_numeric.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/META-INF/persistence.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/controller/DeleteFilmServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/controller/ListProductServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/controller/LoadFilmFormServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/controller/LoginServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/controller/LogoutServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/controller/SessionFilter.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/controller/Tests.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/model/BaseEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/model/BaseEntityAudit.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/model/BillEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/model/BillRowEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/model/FilmEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/model/GenreEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/model/PaymentEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/model/UserEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/model/WhatsApp Image 2018-01-12 at 3.52.07 PM.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/services/AbstractFacade.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/services/AbstractFacadeTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/services/FacadeFilmImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/services/FacadeGenreImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/services/FacadeUserImpl.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/utils/Comparators$FilmDTOByNameAsc.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/utils/Comparators$FilmDTOByNameDesc.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/utils/Comparators$FilmDTOByYearAsc.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/utils/Comparators$FilmDTOByYearDesc.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/utils/Comparators.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/VOD/utils/Validate.class" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lab@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lab@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lab@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lab: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="VOD" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="75" column="6" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="75" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadFilmForm.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/LoadFilmForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.jspf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/navbar.jspf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jspf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/header.jspf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="jsf" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@Basic</find>
+      <find>eclipselink</find>
+      <find>FilmObj</find>
+      <find>entry.value</find>
+      <find>entry</find>
+      <find>item</find>
+      <find>userEntity</find>
+      <find>dtoUser</find>
+      <find>DTOFilm</find>
+      <find>year</find>
+      <find>title</find>
+      <find>http://www.creative-tim.com</find>
+      <find>header.</find>
+      <find>jspf</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>javax.persistence</replace>
+      <replace>entry.name</replace>
+      <replace>item</replace>
+      <replace>current</replace>
+      <replace>user</replace>
+      <replace>FilmEntity</replace>
+      <replace>getYear()</replace>
+      <replace>getTitle()</replace>
+      <replace>https://www.linkedin.com/in/francesco-stella/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/LoadFilmForm.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/model/GenereEntity.java" />
+        <option value="$PROJECT_DIR$/src/services/AbstractFacadeTest.java" />
+        <option value="$PROJECT_DIR$/src/controller/Tests.java" />
+        <option value="$PROJECT_DIR$/src/model/PaymentEntity.java" />
+        <option value="$PROJECT_DIR$/src/model/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/model/GenreEntity.java" />
+        <option value="$PROJECT_DIR$/src/services/FacadeGenreImpl.java" />
+        <option value="$PROJECT_DIR$/src/model/FilmEntity.java" />
+        <option value="$PROJECT_DIR$/src/model/BillRowEntity.java" />
+        <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/services/FacadeUserImpl.java" />
+        <option value="$PROJECT_DIR$/src/services/AbstractFacade.java" />
+        <option value="$PROJECT_DIR$/src/controller/DeleteFilmServlet.java" />
+        <option value="$PROJECT_DIR$/src/controller/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/utils/DTOComparators.java" />
+        <option value="$PROJECT_DIR$/src/utils/Comparators.java" />
+        <option value="$PROJECT_DIR$/src/controller/ListProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/controller/LoadFilmFormServlet.java" />
+        <option value="$PROJECT_DIR$/src/controller/SessionFilter.java" />
+        <option value="$PROJECT_DIR$/src/model/BaseEntityAudit.java" />
+        <option value="$PROJECT_DIR$/src/model/BillEntity.java" />
+        <option value="$PROJECT_DIR$/src/model/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/navbar.xhtml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/navbar.jspf" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/footer.jspf" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/sidebar.jspf" />
+        <option value="$PROJECT_DIR$/web/home.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/header.jspf" />
+        <option value="$PROJECT_DIR$/web/Login.jsp" />
+        <option value="$PROJECT_DIR$/web/ListProduct.jsp" />
+        <option value="$PROJECT_DIR$/web/LoadFilmForm.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="VOD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VOD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VOD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VOD" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VOD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VOD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VOD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VOD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VOD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VOD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VOD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VOD" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VOD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VOD" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VOD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VOD" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VOD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-5.1.45.zip!/" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="services" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Utente\Documents\dev\VOD\src\utils" />
+      <recent name="C:\Users\Utente\Documents\dev\VOD\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="AbstractFacadeTest.getEntityManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="VOD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.AbstractFacadeTest" />
+      <option name="METHOD_NAME" value="getEntityManager" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="VOD:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_VOD" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51507" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="VOD:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AbstractFacadeTest.getEntityManager" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AbstractFacadeTest.getEntityManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration>C:\Users\Utente\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c312d06e-973b-4988-b4c8-5157cee05060" name="Default" comment="" />
+      <created>1515965312783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515965312783</updated>
+      <workItem from="1515965317373" duration="5710000" />
+      <workItem from="1516013540905" duration="6730000" />
+      <workItem from="1516034957660" duration="18682000" />
+      <workItem from="1516090979338" duration="16739000" />
+    </task>
+    <task id="LOCAL-00001" summary="User Interface">
+      <created>1516112844325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516112844325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 16m 46s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 16m 51s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 17m 15s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 19m 50s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 20m 27s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 21m 23s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 21m 56s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 24m 25s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 25m 04s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractFacadeTest_getEntityManager - 2018.01.14 at 23h 37m 35s.xml">
+      <configuration name="AbstractFacadeTest.getEntityManager" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47861000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4051447" sideWeight="0.50832075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17397882" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52797705" sideWeight="0.4924357" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4051447" sideWeight="0.49167928" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21331316" sideWeight="0.35209003" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21331316" sideWeight="0.64790994" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.204236" sideWeight="0.50643086" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21028744" sideWeight="0.33814433" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42037302" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17397882" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65423244" sideWeight="0.49546143" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42037302" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21028744" sideWeight="0.29761904" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21028744" sideWeight="0.70238096" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.204236" sideWeight="0.50643086" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="User Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Interface" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/web/WEB-INF/jsp/header.jspf</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/web/LoadFilmForm.jsp</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/DeleteFilmServlet.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/LoadFilmFormServlet.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/SessionFilter.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/LoadFilmFormServlet.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/Login.jsp</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="33" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dtoFilm</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>year</expression-string>
+        <language-id>JSP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/services/AbstractFacadeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/3ee5a9b6/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/lab.genere">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Validate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/javax/persistence/GenerationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/FacadeGenreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#168#169#0" expanded="false" />
+            <element signature="e#197#198#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PaymentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/BillRowEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3ee5a9b6/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/lab.payment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3ee5a9b6/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/lab.genere">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="579" column="0" lean-forward="false" selection-start-line="579" selection-start-column="0" selection-end-line="579" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3ee5a9b6/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/lab.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/FacadeFilmImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/FacadeUserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="110" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Persistence/JavaeeElement:/3ee5a9b6/lab/VOD/jpa/JPA/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/3ee5a9b6/lab/VOD/jpa/JPA/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="" y="">UserEntity#file://C:/Users/Utente/Documents/dev/VOD/src/model/UserEntity.java</node>
+            <node x="" y="">PaymentEntity#file://C:/Users/Utente/Documents/dev/VOD/src/model/PaymentEntity.java</node>
+            <node x="" y="">BillEntity#file://C:/Users/Utente/Documents/dev/VOD/src/model/BillEntity.java</node>
+            <node x="" y="">GenreEntity#file://C:/Users/Utente/Documents/dev/VOD/src/model/GenreEntity.java</node>
+            <node x="" y="">BaseEntity#file://C:/Users/Utente/Documents/dev/VOD/src/model/BaseEntity.java</node>
+            <node x="" y="">BaseEntityAudit#file://C:/Users/Utente/Documents/dev/VOD/src/model/BaseEntityAudit.java</node>
+            <node x="" y="">FilmEntity#file://C:/Users/Utente/Documents/dev/VOD/src/model/FilmEntity.java</node>
+            <node x="" y="">BillRowEntity#file://C:/Users/Utente/Documents/dev/VOD/src/model/BillRowEntity.java</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.4126297577854671" x="217.0" y="628.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Embeddables</Category>
+            <Category>Properties</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/console_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/javax/persistence/EntityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/DeleteFilmServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Comparators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#332#333#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#575#576#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/GenreEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ListProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="41" column="68" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/LoadFilmFormServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/SessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="10" column="89" lean-forward="false" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/BaseEntityAudit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/BillEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/FilmEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1003">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/AbstractFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3ee5a9b6/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/lab.sequence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/javax/persistence/MappedSuperclass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3ee5a9b6/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/lab.bill">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/WhatsApp Image 2018-01-12 at 3.52.07 PM.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/navbar.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/footer.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/sidebar.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="75" column="6" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="75" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3ee5a9b6/ad3fdf79-11da-4861-8c0e-f2e02e0915a1/lab.film">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/navbar.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/header.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ListProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/LoadFilmForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>VOD:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (VOD)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>VOD</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>JPA 2.1-2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

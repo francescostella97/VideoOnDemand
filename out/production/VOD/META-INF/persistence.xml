@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="lab">
+        <class>model.FilmEntity</class>
+        <class>model.GenreEntity</class>
+        <class>model.BillEntity</class>
+        <class>model.BillRowEntity</class>
+        <class>model.UserEntity</class>
+        <class>model.PaymentEntity</class>
+        <!--<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/lab"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="root"/>
+
+            <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>-->
+            <!--<property name="eclipselink.ddl-generation.output-mode" value="database"/>-->
+        </properties>
+    </persistence-unit>
+</persistence>
