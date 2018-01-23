@@ -17,6 +17,17 @@
                         <p><c:out value="${user}"></c:out></p>
                     </a>
                 </li>
+
+
+                    <li>
+                        <a href="cart.jsp" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="ti-shopping-cart"></i>
+                        </a>
+                    </li>
+
+
+
+
                 <li>
                     <a href="/logoutServlet" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="ti-panel"></i>

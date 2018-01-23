@@ -67,7 +67,6 @@
                 </div>
 
                 <%@include file="/WEB-INF/jsp/footer.jspf"%>
-
             </div>
 </div>
 </body>

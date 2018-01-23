@@ -9,6 +9,9 @@ public class FilmEntity extends BaseEntityAudit{
     @Column(name = "title")
     private String title;
 
+    @Column(name = "price")
+    private double price;
+
     @ManyToOne(fetch=FetchType.LAZY)
     @JoinColumn(name="genere_id")
     private GenreEntity genre;
@@ -40,6 +43,15 @@ public class FilmEntity extends BaseEntityAudit{
 
     public FilmEntity setTitle(String title) {
         this.title = title;
+        return this;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public FilmEntity setPrice(double price) {
+        this.price = price;
         return this;
     }
 
@@ -110,6 +122,7 @@ public class FilmEntity extends BaseEntityAudit{
     public String toString() {
         return "FilmEntity{" +
                 "title='" + title + '\'' +
+                ", price=" + price +
                 ", genre=" + genre.getName() +
                 ", year=" + year +
                 ", producer='" + producer + '\'' +

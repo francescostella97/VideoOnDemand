@@ -25,9 +25,12 @@ public class ListProductServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         final String SORT_NUMERIC = "sort_numeric";
         final String SORT_ALPHA = "sort_alpha";
-        //final String SORT_NORMAL = "sort_normal";
+        final String SORT_NORMAL = "sort_normal";
 
         String orderingType = request.getParameter("orderingType");
+        if(orderingType == null)
+            orderingType = SORT_NORMAL;
+
 
         List<FilmEntity> allElements;
 

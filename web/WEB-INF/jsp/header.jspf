@@ -15,8 +15,13 @@
 </c:if>
 <c:if test="${empty dtoUser}">
     <c:set var="user" value="Login" scope="page"></c:set>
-
 </c:if>
+
+<c:if test="${!empty cart}">
+    <c:set var="cart" value="${sessionScope.get('cart')}" scope="session"></c:set>
+</c:if>
+
+
 <%--<%
     //String uri = request.getServletPath();
     //String pageName = uri.substring(uri.lastIndexOf("/")+1);

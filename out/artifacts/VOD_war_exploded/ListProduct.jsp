@@ -46,13 +46,6 @@
 
 <c:set var="films" value="${requestScope.get('elements')}" scope="session"></c:set>
 
-
-
-
-
-
-
-
 <div class="wrapper">
     <%@include file="/WEB-INF/jsp/sidebar.jspf"%>
 
@@ -82,6 +75,7 @@
                                     <th>Title</th>
                                     <th>Genre</th>
                                     <th>Year</th>
+                                    <th></th>
                                     <th>Edit</th>
                                     <th>Delete</th>
                                     </thead>
@@ -91,8 +85,9 @@
                                             <td>${f.title}</td>
                                             <td>${f.genre.name}</td>
                                             <td>${f.year}</td>
-                                            <td><a href="/loadListFormServlet?id=${f.id}" ><img src="img/edit.png" ></a></td>
-                                            <td><a href="/deleteFilmServlet?id=${f.id}" ><img src="img/delete.png" ></a></td>
+                                            <td><a href="/deleteFilmServlet?id=${f.id}" ><i class="ti-shopping-cart"></i></a></td>
+                                            <td><a href="/loadListFormServlet?id=${f.id}" ><i class="ti-pencil"></i></a></td>
+                                            <td><a href="/deleteFilmServlet?id=${f.id}" ><i class="ti-trash"></i></a></td>
                                         </tr>
                                     </c:forEach>
                                     </tbody>

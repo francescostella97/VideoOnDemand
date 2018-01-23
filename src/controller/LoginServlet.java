@@ -1,5 +1,6 @@
 package controller;
 
+import model.Cart;
 import model.FilmEntity;
 import model.UserEntity;
 import services.FacadeUserImpl;
@@ -25,7 +26,10 @@ public class LoginServlet extends HttpServlet {
 
             if(user != null){
                 HttpSession session = request.getSession();
+                // set user to the session
                 session.setAttribute("user",user);
+                // set cart object to the session
+                session.setAttribute("cart", new Cart());
                 response.sendRedirect(response.encodeURL("home.jsp"));
             }
             else {
