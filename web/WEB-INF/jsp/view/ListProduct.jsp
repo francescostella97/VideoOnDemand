@@ -13,8 +13,8 @@
     <title>List products</title>
 
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../../assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <title>List of Products</title>
@@ -24,27 +24,27 @@
 
 
     <!-- Bootstrap core CSS     -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../../assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Animation library for notifications   -->
-    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+    <link href="../../../assets/css/animate.min.css" rel="stylesheet"/>
 
     <!--  Paper Dashboard core CSS    -->
-    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+    <link href="../../../assets/css/paper-dashboard.css" rel="stylesheet"/>
 
     <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="assets/css/demo.css" rel="stylesheet" />
+    <link href="../../../assets/css/demo.css" rel="stylesheet" />
 
     <!--  Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
-    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="../../../assets/css/themify-icons.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-<c:set var="films" value="${requestScope.get('elements')}" scope="session"></c:set>
+<%--<c:set var="films" value="${requestScope.get('elements')}" scope="session"></c:set>--%>
 
 <div class="wrapper">
     <%@include file="/WEB-INF/jsp/sidebar.jspf"%>
@@ -65,8 +65,8 @@
                                 <p class="category">There are <c:out value="${films.size()}"></c:out> films in our database</p>
                             </div>
 
-                            <a href=<%=response.encodeURL("/listProductServlet?orderingType=sort_alpha")%>><img src="img/sort_alpha.png"></a>
-                            <a href=<%=response.encodeURL("/listProductServlet?orderingType=sort_numeric")%>><img src="img/sort_numeric.png"></a>
+                            <a href=<%=response.encodeURL("/listProductServlet?orderingType=sort_alpha")%>><img src="../../../img/sort_alpha.png"></a>
+                            <a href=<%=response.encodeURL("/listProductServlet?orderingType=sort_numeric")%>><img src="../../../img/sort_numeric.png"></a>
 
                             Ricorda questa scelta <input type="checkbox" name="list_type">
                             <div class="content table-responsive table-full-width">

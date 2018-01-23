@@ -1,4 +1,4 @@
-<%@ page import="model.FilmEntity" %>
+<%@ page import="com.model.FilmEntity" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>

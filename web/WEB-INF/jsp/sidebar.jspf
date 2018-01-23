@@ -2,7 +2,7 @@
 <c:url value="/loadListFormServlet" var="url">
     <c:param name="status" value="empty"></c:param>
 </c:url>
-<c:url value="/home.jsp" var="url_home"></c:url>
+<c:url value="/WEB-INF/jsp/view/home.jsp" var="url_home"></c:url>
 <c:url value="/listProductServlet" var="url_list">
     <c:param name="orderingType" value="sort_normal"></c:param>
 </c:url>
@@ -63,19 +63,19 @@
 
         <ul class="nav">
             <li>
-                <a href="/home.jsp">
+                <a href="/">
                     <i class="ti-panel"></i>
                     <p>Dashboard</p>
                 </a>
             </li>
             <li>
-                <a href="/loadListFormServlet?status=empty">
+                <a href="/item/add/">
                     <i class="ti-plus"></i>
                     <p>Add Title</p>
                 </a>
             </li>
             <li class="active">
-                <a href="/listProductServlet?orderingType=sort_normal">
+                <a href="/item/list/">
                     <i class="ti-view-list-alt"></i>
                     <p>Product List</p>
                 </a>
