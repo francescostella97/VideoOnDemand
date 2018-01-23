@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="Login.jsp" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="view/Login.jsp" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="ti-panel"></i>
                         <p><c:out value="${user}"></c:out></p>
                     </a>
@@ -20,7 +20,7 @@
 
 
                     <li>
-                        <a href="cart.jsp" class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="view/cart.jsp" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="ti-shopping-cart"></i>
                         </a>
                     </li>
